@@ -2,16 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 .using-opportunities {
+    position: relative;
 
     .using-opportunities_container {
         width: 1106px;
         margin: 0 auto;
 
         .using-opportunities_wrapper {
+           
 
             .using-opportunity_wrapper {
                 display: flex;
-                column-gap: 83px;
+                column-gap: 220px;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 160px;
+                
+                
 
                 .using-opportunity_content {
 
@@ -37,7 +44,7 @@
 
                     .using-opportunity_button {
                         button {
-                            padding: 14px 43.5px 44.5px;
+                            padding: 14px 43.5px 14px 44.5px;
                             font-family: 'Space Mono';
                             font-style: normal;
                             font-weight: 700;
@@ -45,12 +52,36 @@
                             line-height: 25px;
                             text-align: center;
                             color: #fff;
+                            border: 3px solid #FCB72B;
+                            background-color: #FCB72B;
+                           
+                            transition: 0.3s;
+                        }
+                        button:hover{
+                            border: 3px solid #FCB72B;
+                            color: #FCB72B;
+                            background-color: transparent;
                         }
                     }
                 }
                 .using-opportunity_image_wrapper{
                     .using-opportunity_img{
                         width: 445px;
+                    }
+                    .using-opportunity_riding_telemetry_wrapper_arrow {
+                        position: absolute;
+                        top: 300px;
+                        right: 0;
+                    }
+                    .using-opportunity_coming_city_wrapper_arrow{
+                        position: absolute;
+                        top: 625px;
+                        left: 0;
+                    }
+                    .using-opportunity_payments_wrapper_arrow{
+                        position: absolute;
+                        top: 1220px;
+                        right: 0;
                     }
                 }
             }

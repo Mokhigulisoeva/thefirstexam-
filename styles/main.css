@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 body {
   margin: 0;
 }
@@ -159,14 +160,20 @@ body {
   color: #939CAA;
 }
 
+.using-opportunities {
+  position: relative;
+}
 .using-opportunities .using-opportunities_container {
   width: 1106px;
   margin: 0 auto;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper {
   display: flex;
-  -moz-column-gap: 83px;
-       column-gap: 83px;
+  -moz-column-gap: 220px;
+       column-gap: 220px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 160px;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_title {
   font-family: "Space Mono";
@@ -187,7 +194,7 @@ body {
   margin-bottom: 40px;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_button button {
-  padding: 14px 43.5px 44.5px;
+  padding: 14px 43.5px 14px 44.5px;
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
@@ -195,7 +202,66 @@ body {
   line-height: 25px;
   text-align: center;
   color: #fff;
+  border: 3px solid #FCB72B;
+  background-color: #FCB72B;
+  transition: 0.3s;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_button button:hover {
+  border: 3px solid #FCB72B;
+  color: #FCB72B;
+  background-color: transparent;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_img {
   width: 445px;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_riding_telemetry_wrapper_arrow {
+  position: absolute;
+  top: 300px;
+  right: 0;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_coming_city_wrapper_arrow {
+  position: absolute;
+  top: 625px;
+  left: 0;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_payments_wrapper_arrow {
+  position: absolute;
+  top: 1220px;
+  right: 0;
+}
+
+.sign-up {
+  background-image: url(./../images/Mask.svg);
+  background-repeat: no-repeat;
+}
+.sign-up .sign-up__container {
+  width: 1106px;
+  margin: 0 auto;
+}
+.sign-up .sign-up__container .sign-up_content_wrapper {
+  padding: 102px 0;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 336px;
+       column-gap: 336px;
+}
+.sign-up .sign-up__container .sign-up_content_wrapper .sign-up__content {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+}
+.sign-up .sign-up__container .sign-up_content_wrapper .sign-up__logos {
+  display: flex;
+  -moz-column-gap: 18px;
+       column-gap: 18px;
+}
+.sign-up .sign-up__container .sign-up_content_wrapper .sign-up__logos .sign-up_logo_appstore {
+  width: 159px;
+}
+.sign-up .sign-up__container .sign-up_content_wrapper .sign-up__logos .sign-up_logo_googleplay {
+  width: 182px;
 }/*# sourceMappingURL=main.css.map */
