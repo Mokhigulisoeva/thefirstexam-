@@ -35,13 +35,13 @@
                     font-weight: 700;
                     font-size: 15px;
                     line-height: 25px;
-                    color: #939CAA;
+                    color: var(--link_color);
                     text-decoration: none;
                     transition: 0.3s;
 
                 }
                 a:hover{
-                    color: #FCB72B;
+                    color: $link-hover-color;
                 }
 
             }
@@ -55,16 +55,16 @@
                     font-size: 15px;
                     line-height: 25px;
                     text-align: center;
-                    color: #FFFFFF;
-                    background-color: #FCB72B;
-                    border: 3px #fcb721 solid;
+                    color: var(--white-color);
+                    background-color:$link-hover-color ;
+                    border: 3px $link-hover-color solid;
                     cursor: pointer;
                     transition: 0.3s;
                 }
                 button:hover{
-                        background-color: #fff;
-                        border: 3px solid #FCB72B;
-                        color: #FCB72B;
+                        background-color: var(--white-color);
+                        border: 3px solid $link-hover-color;
+                        color:$link-hover-color;
                 }
             }
         }
@@ -92,7 +92,7 @@
                         font-size: 56px;
                         line-height: 56px;
                         letter-spacing: -2.5px;
-                        color: #FFFFFF;
+                        color: var(--white-color);
                         margin-bottom: 40px;
                     }
 
@@ -105,7 +105,7 @@
                             font-weight: 400;
                             font-size: 15px;
                             line-height: 25px;
-                            color: #FFFFFF;
+                            color: var(--white-color);
                             margin-bottom: 40px;
                         
                     }
@@ -121,16 +121,16 @@
                             font-size: 15px;
                             line-height: 25px;
                             text-align: center;
-                            color: #FFFFFF;
-                            background-color: #FCB72B;
-                            border: 3px solid #FCB72B;
+                            color: var(--white-color);
+                            background-color: var(--link-hover-color) ;
+                            border: 3px solid var(--link-hover-color);
                             cursor: pointer;
                             transition: 0.3s;
                         }
                         button:hover{
                             background-color: transparent;
-                            border: 3px solid #FCB72B;
-                            color: #FCB72B;
+                            border: 3px solid var(--link-hover-color);
+                            color: var(--link-hover-color);
                         }
 
                     }

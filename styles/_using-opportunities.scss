@@ -38,28 +38,17 @@
                         font-weight: 400;
                         font-size: 15px;
                         line-height: 25px;
-                        color: #939CAA;
+                        color: var(--link_color);
                         margin-bottom: 40px;
                     }
 
                     .using-opportunity_button {
                         button {
-                            padding: 14px 43.5px 14px 44.5px;
-                            font-family: 'Space Mono';
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 15px;
-                            line-height: 25px;
-                            text-align: center;
-                            color: #fff;
-                            border: 3px solid #FCB72B;
-                            background-color: #FCB72B;
-                           
-                            transition: 0.3s;
+                            @include my_btn
                         }
                         button:hover{
-                            border: 3px solid #FCB72B;
-                            color: #FCB72B;
+                            border: 3px solid var(--link-hover-color);
+                            color: var(--link-hover-color);
                             background-color: transparent;
                         }
                     }

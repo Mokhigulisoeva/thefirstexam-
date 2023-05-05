@@ -14,6 +14,12 @@ body {
   margin: 0;
 }
 
+:root {
+  --link_color:#939CAA;
+  --link-hover-color:#FCB72B;
+  --white-color:#fff;
+}
+
 .scooter-header .scooter-header__container {
   width: 1106px;
   margin: 0 auto;
@@ -41,7 +47,7 @@ body {
   font-weight: 700;
   font-size: 15px;
   line-height: 25px;
-  color: #939CAA;
+  color: var(--link_color);
   text-decoration: none;
   transition: 0.3s;
 }
@@ -56,14 +62,14 @@ body {
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  color: #FFFFFF;
+  color: var(--white-color);
   background-color: #FCB72B;
-  border: 3px #fcb721 solid;
+  border: 3px #FCB72B solid;
   cursor: pointer;
   transition: 0.3s;
 }
 .scooter-header .scooter-header__container .scooter-header__navbar .scooter-header_navbar_button button:hover {
-  background-color: #fff;
+  background-color: var(--white-color);
   border: 3px solid #FCB72B;
   color: #FCB72B;
 }
@@ -88,7 +94,7 @@ body {
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -2.5px;
-  color: #FFFFFF;
+  color: var(--white-color);
   margin-bottom: 40px;
 }
 .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_description {
@@ -99,7 +105,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #FFFFFF;
+  color: var(--white-color);
   margin-bottom: 40px;
 }
 .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_button button {
@@ -111,16 +117,16 @@ body {
   font-size: 15px;
   line-height: 25px;
   text-align: center;
-  color: #FFFFFF;
-  background-color: #FCB72B;
-  border: 3px solid #FCB72B;
+  color: var(--white-color);
+  background-color: var(--link-hover-color);
+  border: 3px solid var(--link-hover-color);
   cursor: pointer;
   transition: 0.3s;
 }
 .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_button button:hover {
   background-color: transparent;
-  border: 3px solid #FCB72B;
-  color: #FCB72B;
+  border: 3px solid var(--link-hover-color);
+  color: var(--link-hover-color);
 }
 
 .use-scooter {
@@ -157,7 +163,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #939CAA;
+  color: var(--link_color);
 }
 
 .using-opportunities {
@@ -190,7 +196,7 @@ body {
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
-  color: #939CAA;
+  color: var(--link_color);
   margin-bottom: 40px;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_button button {
@@ -207,8 +213,8 @@ body {
   transition: 0.3s;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_button button:hover {
-  border: 3px solid #FCB72B;
-  color: #FCB72B;
+  border: 3px solid var(--link-hover-color);
+  color: var(--link-hover-color);
   background-color: transparent;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_img {
@@ -252,7 +258,7 @@ body {
   font-size: 48px;
   line-height: 48px;
   letter-spacing: -2.14286px;
-  color: #FFFFFF;
+  color: var(--white-color);
 }
 .sign-up .sign-up__container .sign-up_content_wrapper .sign-up__logos {
   display: flex;
