@@ -1,0 +1,42 @@
+.scooter-footer{
+background-color:  #333A44;;
+    
+.scooter-footer__container{
+    width: 1106px;
+    margin: 0 auto;
+
+    .scooter-footer__wrapper{
+        display: flex;
+        align-items: center;
+        padding: 35px 0 32.45px;
+
+        .scooter-footer__logo{
+            margin-right: 58.58px;
+
+        }
+        .scooter-footer__links{
+            margin-right: 530px;
+               a{
+            text-decoration: none;
+            margin-right: 32px;
+            color: #939CAA;
+            transition: 0.3s;
+           }
+           a:hover{
+            color: #FCB72B;
+           }
+        }
+        .scooter-footer__apps{
+            
+            .scooter-footer__img{
+                margin-right: 24px;
+                transition: 0.3s;
+            }
+            .scooter-footer__img:hover{
+                background-color: #E5ECF4;
+                
+            }
+        }
+    }
+}
+}
