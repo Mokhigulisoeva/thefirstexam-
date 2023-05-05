@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+.using-opportunities {
+
+    .using-opportunities_container {
+        width: 1106px;
+        margin: 0 auto;
+
+        .using-opportunities_wrapper {
+
+            .using-opportunity_wrapper {
+                display: flex;
+                column-gap: 83px;
+
+                .using-opportunity_content {
+
+                    .using-opportunity_title {
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 48px;
+                        letter-spacing: -2.14286px;
+                        margin-bottom: 24px;
+                    }
+
+                    .using-opportunity_description {
+                        font-family: 'Lexend Deca';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #939CAA;
+                        margin-bottom: 40px;
+                    }
+
+                    .using-opportunity_button {
+                        button {
+                            padding: 14px 43.5px 44.5px;
+                            font-family: 'Space Mono';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 15px;
+                            line-height: 25px;
+                            text-align: center;
+                            color: #fff;
+                        }
+                    }
+                }
+                .using-opportunity_image_wrapper{
+                    .using-opportunity_img{
+                        width: 445px;
+                    }
+                }
+            }
+        }
+    }
+}

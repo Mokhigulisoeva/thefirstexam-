@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+.use-scooter {
+    margin-top: 160px;
+    margin-bottom: 200px;
+
+    .use-scooter__container {
+        width: 1106px;
+        margin: 0 auto;
+
+        .use-scooter__instructions {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 30px;
+
+            .use-scooter_instruction {
+
+                .use-scooter_instruction_img {
+
+                    width: 96px;
+                    margin-bottom: 40px;
+
+
+                }
+
+
+
+                .use-scooter_instruction_title {
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 28px;
+                    letter-spacing: -1.07143px;
+                    color: #495567;
+                    margin-bottom: 27px;
+                }
+
+                .use-scooter_instruction_description {
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #939CAA;
+                }
+            }
+        }
+    }
+}

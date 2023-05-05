@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.scooter-header .scooter-header__container {
+  width: 1106px;
+  margin: 0 auto;
+}
+.scooter-header .scooter-header__container .scooter-header__navbar {
+  padding: 22px 0 21px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.scooter-header .scooter-header__container .scooter-header__navbar .scooter-header_navbar_logo img {
+  width: 107.82px;
+  height: 28.56px;
+  margin-right: 58.18px;
+}
+.scooter-header .scooter-header__container .scooter-header__navbar .scooter-header_navbar_links {
+  margin-right: 500px;
+  display: flex;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+}
+.scooter-header .scooter-header__container .scooter-header__navbar .scooter-header_navbar_links a {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.scooter-header .scooter-header__container .scooter-header__navbar .scooter-header_navbar_links a:hover {
+  color: #FCB72B;
+}
+.scooter-header .scooter-header__container .scooter-header__navbar .scooter-header_navbar_button button {
+  padding: 14px 39px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  border: 3px #fcb721 solid;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.scooter-header .scooter-header__container .scooter-header__navbar .scooter-header_navbar_button button:hover {
+  background-color: #fff;
+  border: 3px solid #FCB72B;
+  color: #FCB72B;
+}
+.scooter-header .scooter-header__body {
+  background-image: url(./../images/Bitmap\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.scooter-header .scooter-header__body .scooter-header_body_container {
+  width: 1106px;
+  margin: 0 auto;
+}
+.scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content {
+  padding: 153px 0 152px;
+}
+.scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_title {
+  width: 500px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_description {
+  width: 405px;
+  margin-left: 95px;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_button button {
+  margin-left: 95px;
+  padding: 14px 39px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #FCB72B;
+  border: 3px solid #FCB72B;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_button button:hover {
+  background-color: transparent;
+  border: 3px solid #FCB72B;
+  color: #FCB72B;
+}
+
+.use-scooter {
+  margin-top: 160px;
+  margin-bottom: 200px;
+}
+.use-scooter .use-scooter__container {
+  width: 1106px;
+  margin: 0 auto;
+}
+.use-scooter .use-scooter__container .use-scooter__instructions {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_instruction_img {
+  width: 96px;
+  margin-bottom: 40px;
+}
+.use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_instruction_title {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.07143px;
+  color: #495567;
+  margin-bottom: 27px;
+}
+.use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_instruction_description {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.using-opportunities .using-opportunities_container {
+  width: 1106px;
+  margin: 0 auto;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper {
+  display: flex;
+  -moz-column-gap: 83px;
+       column-gap: 83px;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_title {
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  margin-bottom: 24px;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_description {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  margin-bottom: 40px;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_content .using-opportunity_button button {
+  padding: 14px 43.5px 44.5px;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_img {
+  width: 445px;
+}/*# sourceMappingURL=main.css.map */
