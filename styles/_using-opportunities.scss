@@ -4,6 +4,8 @@
 .using-opportunities {
 
     .using-opportunity_riding_telemetry_wrapper_body {
+        position: relative;
+        margin-bottom: 160px;
 
         .using-opportunity_riding_telemetry_container {
             width: 1106px;
@@ -12,6 +14,7 @@
             .using-opportunity_riding_telemetry_wrapper {
                 display: flex;
                 align-items: center;
+                column-gap: 220px;
 
                 .using-opportunity_riding_telemetry_content {
 
@@ -37,24 +40,179 @@
                     }
 
                     .using-opportunity_riding_telemetry_button {
-                       button{
-                       padding: 14px 43.5px 14px 44.5px;
-                        font-family: 'Space Mono';
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 15px;
-                        line-height: 25px;
-                        text-align: center;
-                        color: #FFFFFF;
-                       }
+                        button {
+                           
+                            @include my_btn
+                        }
+                        button:hover{
+                            @include my_btn_hover
+                        }
                     }
                 }
-                .using-opportunity_riding_telemetry_image_wrapper{
-                    .using-opportunity_riding_telemetry_img{
-                        width: 300px;
+
+                .using-opportunity_riding_telemetry_image_wrapper {
+
+                    .using-opportunity_riding_telemetry_img {
+                        width: 445px;
+                    }
+
+                    .using-opportunity_riding_telemetry_wrapper_arrow {
+                        position: absolute;
+                        top: 300px;
+                        right: 0;
+                        z-index: 3;
+                    }
+
+                    .using-opportunity_riding_telemetry_background_img {
+                        height: 445px;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        z-index: -2;
+
                     }
                 }
             }
         }
     }
-}
+
+    .using-opportunity_comming_city_wrapper_body {
+        position: relative;
+        margin-bottom: 160px;
+
+        .using-opportunity_coming_city_container {
+            width: 1106px;
+            margin: 0 auto;
+
+            .using-opportunity_coming_city_wrapper {
+                display: flex;
+                align-items: center;
+                column-gap: 220px;
+
+                .using-opportunity_coming_city_image_wrapper {
+                    .using-opportunity_coming_city_img {
+                        width: 445px;
+
+
+                    }
+
+                    .using-opportunity_coming_city_wrapper_arrow {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: 3;
+                    }
+
+                    .using-opportunity_coming_city_background_img {
+                        height: 445px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        z-index: -2;
+                    }
+                }
+
+                .using-opportunity_coming_city_content {
+                    .using-opportunity_coming_city_title {
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 48px;
+                        letter-spacing: -2.14286px;
+                        color: #495567;
+                        margin-bottom: 24px;
+                    }
+
+                    .using-opportunity_coming_city_description {
+                        font-family: 'Lexend Deca';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #939CAA;
+                        margin-bottom: 40px;
+                    }
+
+                    .using-opportunity_coming_city_button {
+                        button {
+                            @include my_btn
+                        }
+                        button:hover{
+                            @include my_btn_hover
+                        }
+                         
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .using-opportunity_payments_wrapper_body {
+        position: relative;
+        margin-bottom: 160px;
+
+        .using-opportunity_payments_container {
+            width: 1106px;
+            margin: 0 auto;
+
+            .using-opportunity_payments_wrapper {
+                display: flex;
+                align-items: center;
+                column-gap: 220px;
+
+                .using-opportunity_payments_content {
+                    .using-opportunity_payments_title {
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 48px;
+                        letter-spacing: -2.14286px;
+                        color: #495567;
+                        margin-bottom: 24px;
+                    }
+
+                    .using-opportunity_riding_telemetry_description {
+                        font-family: 'Lexend Deca';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15px;
+                        line-height: 25px;
+                        color: #939CAA;
+                        margin-bottom: 40px;
+                    }
+                    .using-opportunity_riding_telemetry_button{
+                        button {
+                            @include my_btn
+                        }
+                        button:hover{
+                            @include my_btn_hover
+                        }
+                    }
+                }
+                .using-opportunity_payments_image_wrapper{
+                    .using-opportunity_payments_img_wrapper{
+                        border-radius: 50%;
+                        .using-opportunity_payments_img{
+                            width: 445px;
+                            border-radius: 50%;
+                        }
+                    }
+                    .using-opportunity_coming_city_wrapper_arrow{
+                        position: absolute;
+                        top: 70px;
+                        right: 0;
+                        z-index: 3;
+                    }
+                    .using-opportunity_coming_city_background_img{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        z-index: -2;
+                    }
+                }
+            }
+        }
+    }

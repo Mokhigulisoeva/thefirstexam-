@@ -12,8 +12,9 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .scooter-header_navbar_logo_menu{
-                img{
+
+            .scooter-header_navbar_logo_menu {
+                img {
                     display: none;
                 }
             }
@@ -111,6 +112,10 @@
                     left: -200px;
                 }
 
+                .scooter-header_arrow_left_responsive {
+                    display: none;
+                }
+
                 .scooter-header_content_description {
 
                     width: 405px;
@@ -158,30 +163,82 @@
         }
     }
 }
-@media screen and (max-width: 57){
-    .scooter-header{
-    .scooter-header__container{
-        width: 80%;
-        margin: 0 auto;
 
-        .scooter-header__navbar{
+@media screen and (max-width: 576px) {
+    .scooter-header {
+        .scooter-header__container {
+            width: 70%;
+            margin: 0 auto;
 
-        .scooter-header_navbar_logo_menu{
-            display: block;
-        }
-        .scooter-header_navbar_logo{
+            .scooter-header__navbar {
 
-            .scooter-header_navbar_links{
-                display: none;
+                .scooter-header_navbar_logo_menu {
+                    img {
+                        display: block;
+                        margin-right: 130.31px;
+                    }
+                }
+
+
+                .scooter-header_navbar_links {
+                    a {
+                        display: none;
+                    }
+
+
+                }
+
+                .scooter-header_navbar_button {
+                    button {
+                        display: none;
+                    }
+
+                }
 
             }
-            .scooter-header_navbar_button{
-                display: none;
-            }
         }
-    }
+
+        .scooter-header__body {
+            position: relative;
+
+            .scooter-header_body_container {
+                width: 70%;
+                margin: 0 auto;
+
+                .scooter-header_body_content {
+                    text-align: center;
+
+                    .scooter-header_content_title {
+                        width: 321px;
+                        font-size: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        letter-spacing: -1.78571px;
+
+                    }
+
+                    .scooter-header_arrow_left {
+                        display: none;
+                    }
+
+                    .scooter-header_arrow_left_responsive {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    .scooter-header_content_description {
+                        width: 311px;
+                        font-size: 15px;
+                        line-height: 25px;
+                        text-align: center;
+                    }
+
+
+                }
+            }
+
+        }
 
     }
-    
-}
 }
