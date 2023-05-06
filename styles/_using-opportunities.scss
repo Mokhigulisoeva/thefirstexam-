@@ -2,84 +2,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 .using-opportunities {
-    position: relative;
 
-    .using-opportunities_container {
-        width: 1106px;
-        margin: 0 auto;
+    .using-opportunity_riding_telemetry_wrapper_body {
 
-        .using-opportunities_wrapper {
-           
+        .using-opportunity_riding_telemetry_container {
+            width: 1106px;
+            margin: 0 auto;
 
-            .using-opportunity_wrapper {
+            .using-opportunity_riding_telemetry_wrapper {
                 display: flex;
-                column-gap: 220px;
-                justify-content: center;
                 align-items: center;
-                margin-bottom: 160px;
-                
-                
 
-                .using-opportunity_content {
+                .using-opportunity_riding_telemetry_content {
 
-                    .using-opportunity_title {
+                    .using-opportunity_riding_telemetry_title {
                         font-family: 'Space Mono';
                         font-style: normal;
                         font-weight: 700;
                         font-size: 48px;
                         line-height: 48px;
                         letter-spacing: -2.14286px;
+                        color: #495567;
                         margin-bottom: 24px;
                     }
 
-                    .using-opportunity_description {
+                    .using-opportunity_riding_telemetry_description {
                         font-family: 'Lexend Deca';
                         font-style: normal;
                         font-weight: 400;
                         font-size: 15px;
                         line-height: 25px;
-                        color: var(--link_color);
+                        color: #939CAA;
                         margin-bottom: 40px;
                     }
 
-                    .using-opportunity_button {
-                        button {
-                            @include my_btn
-                        }
-                        button:hover{
-                            border: 3px solid var(--link-hover-color);
-                            color: var(--link-hover-color);
-                            background-color: transparent;
-                        }
+                    .using-opportunity_riding_telemetry_button {
+                       button{
+                       padding: 14px 43.5px 14px 44.5px;
+                        font-family: 'Space Mono';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 15px;
+                        line-height: 25px;
+                        text-align: center;
+                        color: #FFFFFF;
+                       }
                     }
                 }
-                .using-opportunity_image_wrapper{
-                    .using-opportunity_img{
-                        width: 445px;
-                    }
-                    .using-opportunity_riding_telemetry_wrapper_arrow {
-                        position: absolute;
-                        top: 300px;
-                        right: 0;
-                        z-index: 3;
-                    }
-                    .using-opportunity_background_img{
-                        width: 105px;
-                       
-                        position: absolute;
-                        top: 0;
-                        right: 0;
-                        z-index: -2;
-                    }
-                    .using-opportunity_coming_city_wrapper_arrow{
-                        position: absolute;
-                        top: 625px;
-                        left: 0;
-                    }
-                    .using-opportunity_payments_wrapper_arrow{
-                        position: absolute;
-                        top: 1220px;
-                        right: 0;
+                .using-opportunity_riding_telemetry_image_wrapper{
+                    .using-opportunity_riding_telemetry_img{
+                        width: 300px;
                     }
                 }
             }

@@ -12,6 +12,11 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            .scooter-header_navbar_logo_menu{
+                img{
+                    display: none;
+                }
+            }
 
             .scooter-header_navbar_logo {
 
@@ -148,17 +153,35 @@
                         border: 3px solid var(--link-hover-color);
                         color: var(--link-hover-color);
                     }
-
                 }
             }
-
         }
+    }
+}
+@media screen and (max-width: 57){
+    .scooter-header{
+    .scooter-header__container{
+        width: 80%;
+        margin: 0 auto;
 
+        .scooter-header__navbar{
 
+        .scooter-header_navbar_logo_menu{
+            display: block;
+        }
+        .scooter-header_navbar_logo{
 
+            .scooter-header_navbar_links{
+                display: none;
 
-
+            }
+            .scooter-header_navbar_button{
+                display: none;
+            }
+        }
     }
 
-
+    }
+    
+}
 }
