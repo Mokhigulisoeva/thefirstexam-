@@ -40,7 +40,8 @@
                     transition: 0.3s;
 
                 }
-                a:hover{
+
+                a:hover {
                     color: $link-hover-color;
                 }
 
@@ -56,93 +57,108 @@
                     line-height: 25px;
                     text-align: center;
                     color: var(--white-color);
-                    background-color:$link-hover-color ;
+                    background-color: $link-hover-color ;
                     border: 3px $link-hover-color solid;
                     cursor: pointer;
                     transition: 0.3s;
                 }
-                button:hover{
-                        background-color: var(--white-color);
-                        border: 3px solid $link-hover-color;
-                        color:$link-hover-color;
+
+                button:hover {
+                    background-color: var(--white-color);
+                    border: 3px solid $link-hover-color;
+                    color: $link-hover-color;
                 }
             }
         }
     }
 
-        .scooter-header__body {
-            background-image: url(./../images/Bitmap\ \(1\).jpg);
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+    .scooter-header__body {
 
-            .scooter-header_body_container {
-                width: 1106px;
-                margin: 0 auto;
+        background-image: url(./../images/Bitmap\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .scooter-header_body_container {
+            position: relative;
+            width: 1106px;
+            margin: 0 auto;
 
 
-                .scooter-header_body_content {
-                    padding: 153px 0 152px;
+            .scooter-header_body_content {
+                padding: 153px 0 152px;
 
-                    .scooter-header_content_title {
-                        width: 500px;
+                .scooter-header_content_title {
+                    width: 500px;
+                    font-family: 'Space Mono';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 56px;
+                    letter-spacing: -2.5px;
+                    color: var(--white-color);
+                    margin-bottom: 40px;
+                }
+
+                .scooter-header_arrow_left {
+                    position: absolute;
+                    top: 345px;
+                    left: -200px;
+                }
+
+                .scooter-header_content_description {
+
+                    width: 405px;
+                    margin-left: 95px;
+                    font-family: 'Lexend Deca';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: var(--white-color);
+                    margin-bottom: 40px;
+                }
+
+                .scooter-header_arrow_right {
+                    position: absolute;
+                    top: 345px;
+                    right: 70px;
+                }
+
+                .scooter-header_content_button {
+
+                    button {
+                        margin-left: 95px;
+                        padding: 14px 39px;
                         font-family: 'Space Mono';
                         font-style: normal;
                         font-weight: 700;
-                        font-size: 56px;
-                        line-height: 56px;
-                        letter-spacing: -2.5px;
+                        font-size: 15px;
+                        line-height: 25px;
+                        text-align: center;
                         color: var(--white-color);
-                        margin-bottom: 40px;
+                        background-color: var(--link-hover-color);
+                        border: 3px solid var(--link-hover-color);
+                        cursor: pointer;
+                        transition: 0.3s;
                     }
 
-                        .scooter-header_content_description {
-
-                            width: 405px;
-                            margin-left: 95px;
-                            font-family: 'Lexend Deca';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 15px;
-                            line-height: 25px;
-                            color: var(--white-color);
-                            margin-bottom: 40px;
-                        
+                    button:hover {
+                        background-color: transparent;
+                        border: 3px solid var(--link-hover-color);
+                        color: var(--link-hover-color);
                     }
 
-                    .scooter-header_content_button {
-
-                        button {
-                            margin-left: 95px;
-                            padding: 14px 39px;
-                            font-family: 'Space Mono';
-                            font-style: normal;
-                            font-weight: 700;
-                            font-size: 15px;
-                            line-height: 25px;
-                            text-align: center;
-                            color: var(--white-color);
-                            background-color: var(--link-hover-color) ;
-                            border: 3px solid var(--link-hover-color);
-                            cursor: pointer;
-                            transition: 0.3s;
-                        }
-                        button:hover{
-                            background-color: transparent;
-                            border: 3px solid var(--link-hover-color);
-                            color: var(--link-hover-color);
-                        }
-
-                    }
                 }
-
             }
-
-
-
-
 
         }
 
-    
+
+
+
+
+    }
+
+
 }

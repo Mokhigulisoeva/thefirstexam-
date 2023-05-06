@@ -80,6 +80,7 @@ body {
   background-size: cover;
 }
 .scooter-header .scooter-header__body .scooter-header_body_container {
+  position: relative;
   width: 1106px;
   margin: 0 auto;
 }
@@ -97,6 +98,11 @@ body {
   color: var(--white-color);
   margin-bottom: 40px;
 }
+.scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_arrow_left {
+  position: absolute;
+  top: 345px;
+  left: -200px;
+}
 .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_description {
   width: 405px;
   margin-left: 95px;
@@ -107,6 +113,11 @@ body {
   line-height: 25px;
   color: var(--white-color);
   margin-bottom: 40px;
+}
+.scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_arrow_right {
+  position: absolute;
+  top: 345px;
+  right: 70px;
 }
 .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_button button {
   margin-left: 95px;
@@ -130,6 +141,7 @@ body {
 }
 
 .use-scooter {
+  position: relative;
   margin-top: 160px;
   margin-bottom: 200px;
 }
@@ -146,6 +158,7 @@ body {
 .use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_instruction_img {
   width: 96px;
   margin-bottom: 40px;
+  z-index: 3;
 }
 .use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_instruction_title {
   font-family: "Space Mono";
@@ -156,6 +169,12 @@ body {
   letter-spacing: -1.07143px;
   color: #495567;
   margin-bottom: 27px;
+}
+.use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_background_img {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: -2;
 }
 .use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_instruction_description {
   font-family: "Lexend Deca";
@@ -224,6 +243,14 @@ body {
   position: absolute;
   top: 300px;
   right: 0;
+  z-index: 3;
+}
+.using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_background_img {
+  width: 105px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -2;
 }
 .using-opportunities .using-opportunities_container .using-opportunities_wrapper .using-opportunity_wrapper .using-opportunity_image_wrapper .using-opportunity_coming_city_wrapper_arrow {
   position: absolute;
