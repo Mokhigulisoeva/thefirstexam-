@@ -202,7 +202,7 @@
             position: relative;
 
             .scooter-header_body_container {
-                width: 70%;
+                width: 90%;
                 margin: 0 auto;
 
                 .scooter-header_body_content {
@@ -214,17 +214,21 @@
                         line-height: 40px;
                         text-align: center;
                         letter-spacing: -1.78571px;
+                        margin: 0 auto;
 
                     }
+
 
                     .scooter-header_arrow_left {
                         display: none;
+
                     }
 
                     .scooter-header_arrow_left_responsive {
+                        display: block;
                         position: absolute;
-                        top: 0;
-                        left: 0;
+                        bottom: 40px;
+                        left: -100px;
                     }
 
                     .scooter-header_content_description {
@@ -232,6 +236,19 @@
                         font-size: 15px;
                         line-height: 25px;
                         text-align: center;
+                        margin: 24px auto 34px;
+                        
+                    }
+
+                    .scooter-header_arrow_right {
+                        display: none;
+                    }
+                    .scooter-header_content_button{
+                       button{
+                        
+                        margin-left: 0;
+
+                       }
                     }
 
 

@@ -165,7 +165,7 @@ body {
     position: relative;
   }
   .scooter-header .scooter-header__body .scooter-header_body_container {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
   }
   .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content {
@@ -177,20 +177,29 @@ body {
     line-height: 40px;
     text-align: center;
     letter-spacing: -1.78571px;
+    margin: 0 auto;
   }
   .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_arrow_left {
     display: none;
   }
   .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_arrow_left_responsive {
+    display: block;
     position: absolute;
-    top: 0;
-    left: 0;
+    bottom: 40px;
+    left: -100px;
   }
   .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_description {
     width: 311px;
     font-size: 15px;
     line-height: 25px;
     text-align: center;
+    margin: 24px auto 34px;
+  }
+  .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_arrow_right {
+    display: none;
+  }
+  .scooter-header .scooter-header__body .scooter-header_body_container .scooter-header_body_content .scooter-header_content_button button {
+    margin-left: 0;
   }
 }
 .use-scooter {
@@ -238,6 +247,29 @@ body {
   color: var(--link_color);
 }
 
+@media screen and (max-width: 576px) {
+  .use-scooter {
+    margin-bottom: 120px;
+  }
+  .use-scooter .use-scooter__container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .use-scooter .use-scooter__container .use-scooter__instructions {
+    display: block;
+  }
+  .use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+  .use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_background_img {
+    display: none;
+  }
+  .use-scooter .use-scooter__container .use-scooter__instructions .use-scooter_instruction .use-scooter_instruction_description {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
 .using-opportunities .using-opportunity_riding_telemetry_wrapper_body {
   position: relative;
   margin-bottom: 160px;
@@ -447,6 +479,101 @@ body {
   z-index: -2;
 }
 
+@media screen and (max-width: 576px) {
+  .using-opportunities {
+    margin-bottom: 120px;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container .using-opportunity_riding_telemetry_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container .using-opportunity_riding_telemetry_wrapper .using-opportunity_riding_telemetry_content {
+    text-align: center;
+    line-height: 25px;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container .using-opportunity_riding_telemetry_wrapper .using-opportunity_riding_telemetry_content .using-opportunity_riding_telemetry_title {
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+    max-block-size: 32px;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container .using-opportunity_riding_telemetry_wrapper .using-opportunity_riding_telemetry_content .using-opportunity_riding_telemetry_description {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 32px;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container .using-opportunity_riding_telemetry_wrapper .using-opportunity_riding_telemetry_image_wrapper .using-opportunity_riding_telemetry_img {
+    padding: 30px 50px;
+    width: 445px;
+    margin-bottom: 64px;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container .using-opportunity_riding_telemetry_wrapper .using-opportunity_riding_telemetry_image_wrapper .using-opportunity_riding_telemetry_wrapper_arrow {
+    width: 554.38px;
+    bottom: 390px;
+  }
+  .using-opportunities .using-opportunity_riding_telemetry_wrapper_body .using-opportunity_riding_telemetry_container .using-opportunity_riding_telemetry_wrapper .using-opportunity_riding_telemetry_image_wrapper .using-opportunity_riding_telemetry_background_img {
+    width: 90px;
+  }
+  .using-opportunities .using-opportunity_comming_city_wrapper_body {
+    margin-bottom: 120px;
+  }
+  .using-opportunities .using-opportunity_comming_city_wrapper_body .using-opportunity_coming_city_container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .using-opportunities .using-opportunity_comming_city_wrapper_body .using-opportunity_coming_city_container .using-opportunity_coming_city_wrapper {
+    display: block;
+  }
+  .using-opportunities .using-opportunity_comming_city_wrapper_body .using-opportunity_coming_city_container .using-opportunity_coming_city_wrapper .using-opportunity_coming_city_image_wrapper {
+    margin-bottom: 56px;
+    text-align: center;
+  }
+  .using-opportunities .using-opportunity_comming_city_wrapper_body .using-opportunity_coming_city_container .using-opportunity_coming_city_wrapper .using-opportunity_coming_city_image_wrapper .using-opportunity_coming_city_img {
+    padding: 30px 50px;
+    width: 445px;
+    margin-bottom: 64px;
+  }
+  .using-opportunities .using-opportunity_comming_city_wrapper_body .using-opportunity_coming_city_container .using-opportunity_coming_city_wrapper .using-opportunity_coming_city_image_wrapper .using-opportunity_coming_city_wrapper_arrow {
+    bottom: 390px;
+  }
+  .using-opportunities .using-opportunity_comming_city_wrapper_body .using-opportunity_coming_city_container .using-opportunity_coming_city_wrapper .using-opportunity_coming_city_content {
+    text-align: center;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container .using-opportunity_payments_wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container .using-opportunity_payments_wrapper .using-opportunity_payments_content {
+    text-align: center;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container .using-opportunity_payments_wrapper .using-opportunity_payments_content .using-opportunity_payments_title {
+    margin-bottom: 32px;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container .using-opportunity_payments_wrapper .using-opportunity_payments_content .using-opportunity_riding_telemetry_description {
+    margin-bottom: 32px;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container .using-opportunity_payments_wrapper .using-opportunity_payments_image_wrapper .using-opportunity_payments_img_wrapper .using-opportunity_payments_img {
+    padding: 30px 50px;
+    width: 445px;
+    margin-bottom: 64px;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container .using-opportunity_payments_wrapper .using-opportunity_payments_image_wrapper .using-opportunity_coming_city_wrapper_arrow {
+    width: 354.38px;
+    bottom: 390px;
+  }
+  .using-opportunities .using-opportunity_payments_wrapper_body .using-opportunity_payments_container .using-opportunity_payments_wrapper .using-opportunity_payments_image_wrapper .using-opportunity_coming_city_background_img {
+    width: 90px;
+  }
+}
 .sign-up {
   background-image: url(./../images/Mask.svg);
   background-repeat: no-repeat;

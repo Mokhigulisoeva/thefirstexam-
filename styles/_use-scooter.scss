@@ -39,8 +39,9 @@
                     color: $title-color;
                     margin-bottom: 27px;
                 }
-                .use-scooter_background_img{
-                
+
+                .use-scooter_background_img {
+
                     position: absolute;
                     top: 40px;
                     left: 0;
@@ -54,6 +55,39 @@
                     font-size: 15px;
                     line-height: 25px;
                     color: var(--link_color);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .use-scooter {
+        margin-bottom: 120px;
+
+        .use-scooter__container {
+            width: 90%;
+            margin: 0 auto;
+
+            .use-scooter__instructions {
+                display: block;
+
+
+                .use-scooter_instruction {
+                    text-align: center;
+                    margin-bottom: 48px;
+
+                    .use-scooter_instruction_img {
+                    }
+                    .use-scooter_instruction_title {}
+                    .use-scooter_background_img {
+                        display: none;
+                    }
+                    .use-scooter_instruction_description {
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
                 }
             }
         }

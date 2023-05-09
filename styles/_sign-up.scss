@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
 
 .sign-up {
+    width: 100%;
     background-image: url(./../images/Mask.svg);
     background-repeat: no-repeat;
+   
 
     .sign-up__container {
         width: 1106px;
@@ -39,5 +41,11 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .sign-up{
+        
     }
 }
